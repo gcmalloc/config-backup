@@ -1,6 +1,7 @@
 BACKUPER
 simply execute the backup shell script wherever you want to backup, launch the same script a second time to put all your configuration file into your home directory
 yes, that's all you need
+
 TEST
 tested under ubuntu in INF1, INF2, and INF3 by me
 tested under ubuntu in BC1 and BC2 by me

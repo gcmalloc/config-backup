@@ -11,7 +11,7 @@ if [ -f "$BACKUPFILE" ]; then
 	fi
 	echo "moving file in your home"
 	tar -xf "$BACKUPFILE" -C $HOME
-	if [ $? -eq 0 ]; then
+	if [ $? = 0 ]; then
 		rm "$BACKUPFILE"
 	fi
 else
